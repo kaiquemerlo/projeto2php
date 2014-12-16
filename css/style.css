@@ -1,0 +1,25 @@
+body h2{
+	font-size: 2em;
+}
+
+.bg{
+    background: url("../imagens/bg-surf.jpg") no-repeat center center fixed;
+    height: 750px;
+    max-width: 100%; 
+}
+
+.menu{
+	padding:25px 0;
+}
+
+#barra-style{
+	opacity: 0.8;
+}
+
+#box{
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	border-radius: 50px 0px 50px 0px;
+	padding:0 0 20px 0;
+	height: 100%;
+}
