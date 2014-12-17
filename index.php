@@ -1,64 +1,4 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SURF</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>    
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    
-</head>
-
-<body>
-
-<section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 bg">
-                
-                <header>
-            
-                <div class="menu">
-                    <div class="container">
-
-                   
-                    <nav class="navbar navbar-inverse barra-style" id="barra-style">
-                     <div class="col-sm-5">
-                        <div class="navbar-header">
-                            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">
-                                MARÉSURF
-                            </a>
-                        </div>
-                    </div><!--col-md-5-->
-                    
-                    <div class="col-sm-7">
-                    <div class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Empresa</a>
-                            </li>
-                            <li>
-                                <a href="#">Serviços</a>
-                            </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </div><!-- container da navbar header-->
-                    </div><!-- navbar right-->
-
-                    </nav>
+<?php require_once'inc/header.php'; ?>
 
 
                     <div class="col-xs-12 col-sm-12 col-md-12" id="box">
@@ -84,22 +24,40 @@
                         </div>
                     </div>  
 
-                </header>
+                    <div class="col-xs-12 col-sm-12 col-md-12" id="box2">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12" >
+                        <h2>Venha conhecer nossa loja:</h2>
+
+                        <div class="col-xs-12 col-sm-6 col-md-36">                         
+                            <img src="imagens/loja.jpg" width="650" style="opacity:1; float:left;" />
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6" style="background:gray">
+                            <ul id="lista_end" >
+                                <li>
+                                    <h3>Endereço:</h3>
+                                </li>
+                                <li>                                    
+                                    <address>
+                                        <strong>Rua</strong>: Avenida Sérgio Trevisan / São Paulo<br>
+                                        <strong><abbr title="Numéro da casa">N°</abbr></strong>: 327<br>
+                                        <strong><abbr title="Telefone">Telefone</abbr></strong>: 11 4930-1715
+                                    </address>
+                                </li>
+                                <li>Funcionamento:
+                                    <ul>
+                                        <li>Segunda a Sexta: 09:00 as 18:00</li>
+                                        <li>Sábado: 09:00 as 13:00</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                        </div> 
+                        </div><!--box 2-->
+
+                        
 
                     
-
-                </div><!--menu-->
-
-            </div>
-        </div>
-    </div>
-
-    
-
-
-</section>
-
-</div>
-
-</body>
-</html>
+<?php require_once'inc/footer.php'; ?>
