@@ -33,7 +33,7 @@
                             <img src="imagens/loja.jpg" width="650" style="opacity:1; float:left;" />
                         </div>
 
-                        <div class="col-xs-12 col-sm-6 col-md-6" style="background:gray">
+                        <div class="col-xs-12 col-sm-6 col-md-6" style="background:black">
                             <ul id="lista_end" >
                                 <li>
                                     <h3>Endereço:</h3>
@@ -55,7 +55,7 @@
                             </ul>
                         </div>
                         </div> 
-                        </div><!--box 2-->
+                    </div><!--box 2-->      
 
                         
 
