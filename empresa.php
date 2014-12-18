@@ -1,6 +1,3 @@
-<?php  require_once'inc/header.php';?>
-
-
 <div class="col-xs-12 col-sm-12 col-md-12" id="box">
 
                         <div class="col-xs-12 col-sm-12 col-md-12" >
@@ -33,7 +30,3 @@ Essa assinatura demonstra a nossa vocação pela natureza, pela emoção, por co
                     </div><!--box 2-->       
 
                     
-
-
-
-<?php  require_once'inc/footer.php';?>
