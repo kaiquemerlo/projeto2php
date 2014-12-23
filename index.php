@@ -4,7 +4,11 @@
                     
 <?php
 
-$pg = $_GET['pg'];
+
+if(isset($_GET['pg'])){
+	$pg = $_GET['pg'];
+}
+
 
  if( $pg == ''){
     require_once('home.php');
