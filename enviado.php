@@ -9,6 +9,9 @@
 						$email = $_GET['email'];
 						$assunto = $_GET['assunto'];
 						$mensagem = $_GET['mensagem'];
+
+
+						if(!empty($nome) && !empty($email) && !empty($assunto) && !empty($mensagem)){
 					?>
 
 					<p class="alert alert-success" style="margin:10px 0;">Os dados foram enviados com sucesso!</p>
@@ -17,7 +20,12 @@
 					Email: <?= $email; ?> <br>
 					Assunto: <?= $assunto; ?> <br>
 					Mensagem: <?= $mensagem; ?> <br>
+					
+					<?php }else{ ?>
 
+					<p class="alert alert-danger" style="margin:10px 0;">Por favor, preencha todos os campos!</p>
+					
+					<?php } ?>
 
 		        </div>		        
     	</div>

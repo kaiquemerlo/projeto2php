@@ -45,19 +45,19 @@
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="index.php?pg=home.php">Home</a>
+                                <a href="home">Home</a>
                             </li>
                             <li>
-                                <a href="index.php?pg=empresa.php">Empresa</a>
+                                <a href="empresa">Empresa</a>
                             </li>
                             <li>
-                                <a href="index.php?pg=produtos.php">Produtos</a>
+                                <a href="produtos">Produtos</a>
                             </li>
                             <li>
-                                <a href="index.php?pg=servicos.php">Serviços</a>
+                                <a href="servicos">Serviços</a>
                             </li>
                             <li>
-                                <a href="index.php?pg=contato.php">Contato</a>
+                                <a href="contato">Contato</a>
                             </li>
                         </ul>
                     </div><!-- container da navbar header-->
